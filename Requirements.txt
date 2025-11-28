@@ -1,0 +1,8 @@
+numpy>=1.20.0
+scikit-image>=0.18.0
+matplotlib>=3.3.0
+scikit-learn>=0.24.0
+javabridge>=1.0.19
+bioformats>=4.0.0
+easygui>=0.98.3
+opencv-python>=4.5.0
