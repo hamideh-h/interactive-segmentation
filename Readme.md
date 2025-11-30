@@ -35,8 +35,25 @@ To run the full example:
 
 You may also create your own `input.npy` with the same structure to adapt the pipeline to your data.
 
-## Repository Layout
 
+##
+How to run
+## Quickstart
+
+```bash
+git clone https://github.com/hamideh-h/interactive-segmentation.git
+cd interactive-segmentation
+pip install -r requirements.txt
+
+# Prepare data
+mkdir Workspace_data Raw_Figs
+# put input.npy into Workspace_data/
+
+# Run pipeline
+python src/main.py
+
+## Repository Layout
+```
 ```text
 src/
   main.py                  # entry point
@@ -47,3 +64,6 @@ src/
 data/
   README.md                # explains where to get input.npy
 requirements.txt           # Python dependencies
+
+```
+
